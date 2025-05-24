@@ -21,6 +21,6 @@ print("$1 kupyuradan:", k_1, "ta")
 #print(num2words(186,lang="en"))
 #print(num2words(186,lang="ru"))
 
-print("Umumiy summa:",186,((num2words(186,lang='en')),num2words(186,lang='ru')))
+print("Umumiy summa:",186,((num2words(186,lang='en')),num2words(186,lang='ru')) )
 
 
