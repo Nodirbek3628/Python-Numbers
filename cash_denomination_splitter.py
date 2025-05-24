@@ -1,3 +1,5 @@
+from num2words import num2words
+
 amount = int(input("Pul miqdorini kiriting ($): "))
 
 k_50 = amount // 50
@@ -15,4 +17,10 @@ print("$5 kupyuradan:", k_5, "ta")
 k_1 = amount // 1
 amount = amount % 1
 print("$1 kupyuradan:", k_1, "ta")
+
+#print(num2words(186,lang="en"))
+#print(num2words(186,lang="ru"))
+
+print("Umumiy summa:",186,((num2words(186,lang='en')),num2words(186,lang='ru')))
+
 
